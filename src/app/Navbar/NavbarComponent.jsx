@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function NavbarComponent() {
     return (
         <>
-            <Navbar expand="lg" bg="dark" data-bs-theme="dark" className='p-3' sticky='top' style={{ boxShadow: "0px 2px 5px #329BDB" }}>
+            <Navbar expand="lg" bg="dark" data-bs-theme="dark" className='p-3' sticky='top' style={{ boxShadow: "0px 2px 10px #329BDB" }}>
                 <Container fluid>
                     <Navbar.Brand href="#" style={{ fontWeight: 'bold' }}>My Site</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

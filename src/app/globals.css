@@ -1,33 +1,86 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
+@keyframes myAnim {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 0;
+    transform: scale(0);
+  }
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  38% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: scale(1);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  55% {
+    animation-timing-function: ease-in;
+    transform: scale(0.7);
+  }
+
+  72% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  81% {
+    animation-timing-function: ease-in;
+    transform: scale(0.84);
+  }
+
+  89% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  95% {
+    animation-timing-function: ease-in;
+    transform: scale(0.95);
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Home Component */
+
+.HomeDiv {
+  background-color: black;
+  height: 95vh;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+#homeHeading {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 4px;
+  word-spacing: 5px;
+  color: white;
+  animation: myAnim 2s ease 0s 1 normal none;
+}
+
+#homeHeadline {
+  color: #329BDB;
+  font-size: large;
+  font-family: math;
+  word-spacing: 5px;
+  animation: myAnim 2s ease 0s 1 normal none;
+}
+
+/* Media Querry */
+
+@media screen and (max-width: 500px) {
+  #homeHeading {
+    font-size: 70px !important;
+    position: relative;
+    bottom: 50px;
+    padding: 20px !important;
   }
-} */
+
+  #homeHeadline {
+    font-size: medium;
+    padding: 20px !important;
+    position: relative;
+    bottom: 80px;
+  }
+}
