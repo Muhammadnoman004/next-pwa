@@ -13,7 +13,7 @@ export default function ProjectComponent() {
                         <Card.Title>Project</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            bulk of the cards content.
                         </Card.Text>
                         <Card.Link href="#">Link</Card.Link>
                     </Card.Body>
@@ -24,7 +24,7 @@ export default function ProjectComponent() {
                         <Card.Title>Project</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            bulk of the cards content.
                         </Card.Text>
                         <Card.Link href="#">Link</Card.Link>
                     </Card.Body>
@@ -35,7 +35,7 @@ export default function ProjectComponent() {
                         <Card.Title>Project</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            bulk of the cards content.
                         </Card.Text>
                         <Card.Link href="#">Link</Card.Link>
                     </Card.Body>
@@ -46,7 +46,7 @@ export default function ProjectComponent() {
                         <Card.Title>Project</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            bulk of the cards content.
                         </Card.Text>
                         <Card.Link href="#">Link</Card.Link>
                     </Card.Body>

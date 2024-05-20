@@ -85,16 +85,16 @@
   }
 }
 
-/* Footer Component */
+/* Contact Component */
 
 footer {
   display: flex;
   justify-content: center !important;
   background: #111;
   height: auto;
-  height: 30vh;
+  height: 250px;
   margin-top: 20px;
-  padding-top: 30px;
+  padding-top: 40px;
   color: #fff;
   text-align: center;
   padding-bottom: 20px;
@@ -107,6 +107,7 @@ footer {
 
 .contactUl {
   list-style: none;
+  margin-right: 30px;
 }
 
 li {
@@ -114,5 +115,36 @@ li {
   border-radius: 50%;
   padding: 5px;
   width: 40px;
+}
 
+/* Footer Component */
+
+.footerDiv {
+  text-align: start;
+  padding: 10px 20px;
+  width: 100%;
+  box-Shadow: 0px 2px 10px #329BDB;
+}
+
+.footerDiv h6 {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  word-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.footerDiv a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footerDiv a:hover {
+  color: rgb(3, 111, 199);
+  transition: 1ms;
+}
+
+.footerDiv p {
+  font-size: 12px;
+  word-spacing: 3px;
 }

@@ -8,7 +8,7 @@ export default function Contact() {
                 <div className="footer-content">
                     <h3 id='contact'>Contact Us</h3>
                     <h6 className='text-center pt-2'>+92-3122973953</h6>
-                    <ul className='d-flex gap-4 pt-3 contactUl'>
+                    <ul className='d-flex justify-content-center gap-2 pt-3 contactUl'>
                         <li><Facebook /></li>
                         <li><Twitter /></li>
                         <li><Github /></li>
