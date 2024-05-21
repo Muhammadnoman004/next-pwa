@@ -5,7 +5,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 export default function Service() {
     return (
         <Container >
-            <div className='p-3 mt-4 mb-5' >
+            <div className='p-3 mt-3 mb-4'>
                 <h1 className='text-center' style={{ fontWeight: "bold" }}>Our Services</h1>
                 <Row>
                     <Col xs={12} sm={6} md={4}>
