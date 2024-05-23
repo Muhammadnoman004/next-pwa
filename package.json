@@ -12,6 +12,7 @@
     "@ducanh2912/next-pwa": "^10.2.7",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "framer-motion": "^11.2.6",
     "next": "14.2.3",
     "react": "^18",
     "react-bootstrap": "^2.10.2",
